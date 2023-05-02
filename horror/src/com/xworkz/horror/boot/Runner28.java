@@ -25,7 +25,7 @@ public class Runner28 {
 		int count = spring.getBeanDefinitionCount();
 		System.out.println(count);
 
-		Saloon bean = spring.getBean(Saloon.class, Scissor.class);
+		Saloon bean = spring.getBean(Saloon.class);
 		System.out.println(bean.toString());
 
 		Scissor nean2 = spring.getBean(Scissor.class);

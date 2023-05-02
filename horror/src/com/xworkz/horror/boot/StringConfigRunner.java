@@ -51,12 +51,12 @@ public class StringConfigRunner {
 		System.out.println("NearTemple name:" + nearTemple);
 		System.out.println("========================");
 		
-		System.out.println();
+		/*System.out.println();
 		Integer age = spring1.getBean("age", Integer.class);
 		System.out.println("Age :" + age);
 
 		Integer id = spring1.getBean("id", Integer.class);
-		System.out.println("id:" + id);
+		System.out.println("id:" + id);*/
 
 	}
 

@@ -9,11 +9,11 @@ import com.xworkz.horror.things31.Pizza;
 @ComponentScan("com.xworkz.horror.things31")
 public class SpringConfiguration {
        
-	public String setPName() {
+	/*public String setPName() {
 		System.out.println("registering Pizza name");
 		Pizza pizza=new Pizza();
 		pizza.
-		return ;
+		return ;*/
 		
 	}
-}
+
