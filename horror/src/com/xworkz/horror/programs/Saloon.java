@@ -19,7 +19,7 @@ public class Saloon {
 		this.noOfBarbars = noOfBarbars;
 		this.location = location;
 
-		System.out.println(" Creating String,String,String,String,int args in Saloon..");
+		//System.out.println(" Creating String,String,String,String,int args in Saloon..");
 	}
 
 	@Override
