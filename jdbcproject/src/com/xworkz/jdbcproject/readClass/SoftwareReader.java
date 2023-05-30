@@ -6,7 +6,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class ReadJDBCProgram {
+public class SoftwareReader {
+
 	public static void main(String[] args) {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
@@ -32,6 +33,7 @@ public class ReadJDBCProgram {
 			
 			e.printStackTrace();
 		}
+		
 	}
 
 }
